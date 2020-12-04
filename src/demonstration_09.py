@@ -13,5 +13,15 @@ Notes:
 - All of the letters in the input list will always be lowercase.
 """
 def mapping(letters):
-    # Your code here
+    letter_dict = {} # this is when you use curly braces
+    
+    for letter in letters:
+        #  add a new key/value to the dictionary
+        #  the key is the letter
+        #  the value is the Capitalized version of the letter
+        #  the value is [letter] seen below, can be "Some_value", must be a string
+        letter_dict[letter] = letter.upper()
+    
+    return letter_dict
 
+print(mapping(["a", "v", "y", "z"]))
