@@ -12,7 +12,6 @@ def addition(a, b):
   # Your code here
     s = a + b
     return s
-​
-​
+
 # console.log() 
 print( addition(3, 2) )
